@@ -1,6 +1,9 @@
 [
     {
-        "bg":"https://wallpapers.com/images/hd/green-aesthetic-galaxy-moon-o1bakl6wd2sb2870.jpg",
-        "icons": ["fa-regular fa-moon", "bx bxl-instagram", "bx bxl-youtube", "bx bxl-github", "bx bxl-telegram"]     
+        "logo":"https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
+        "LargeLogo":"https://www.coca-cola.com/content/dam/onexp/global/icons/logo-white-large.svg",
+        "Slider":["https://www.coca-cola.com/content/dam/onexp/kz/ru/home-images/homepage/Banner2-d-1280x604-2.jpg/width2674.jpg","https://www.coca-cola.com/content/dam/onexp/uz/ru/hero-banners/rus_new_new_desktop.jpg/width1960.jpg"],    
+        "NavList":["Brendlar", "Ta'sir qilish"],
+        "ListHref": ["https://www.coca-cola.com/uz/ru/brands", "#"]
     }
 ]
