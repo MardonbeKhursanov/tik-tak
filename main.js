@@ -8,6 +8,8 @@ function Data(){
     .then((res)=>res.json())
     .then((data)=>{
         Header(data)
+        Global(data)
+        Brands(data)
     })
 }
 
@@ -43,13 +45,64 @@ function Header(item){
     }
     slider.append(ButtonsContainer)
 
-    document.querySelector("div.btn1").addEventListener("click", ()=>{
-        SliderContainer.style.transform = `translate(${-90}%)`
-        let span = document.createElement("span")
-        span.classList = "span"
-        
-    })
-    document.querySelector("div.btn2").addEventListener("click", ()=>{
+    let btn1 = document.querySelector("div.btn1")
+    btn1.addEventListener("click", ()=>{
         SliderContainer.style.transform = `translate(${0}%)`
     })
+    let btn2 = document.querySelector("div.btn2")
+    btn2.addEventListener("click", ()=>{
+        SliderContainer.style.transform = `translate(${-90}%)`
+    })
+}
+
+function Global(item){
+    let title = document.createElement("h1")
+    let parent = document.getElementById("globalSection")
+    title.innerHTML = item[1].title
+    title.classList.add("title")
+    parent.append(title)
+    let boxes = document.createElement("div")
+    boxes.classList.add("globalBoxes")
+    parent.append(boxes)
+    for(let i=0; i<item[1].boxesTitle.length; i++){
+        let box = document.createElement("div")
+        box.className = `GlobalBox a${+i+1}`
+        let boxTitle = document.createElement("h2")
+        boxTitle.innerHTML = item[1].boxesTitle[i]
+        let boxPara = document.createElement("p")
+        boxPara.innerHTML = item[1].boxPara[i]
+        let a = document.createElement("a")
+        a.href = item[1].boxHref[i]
+        a.innerHTML = "Batafsil"
+        box.append(boxTitle)
+        box.append(boxPara)
+        box.append(a)
+        boxes.append(box)
+    }
+}
+
+function Brands(item){
+    let Brand = document.createElement("div")
+    Brand.classList.add("Brand")
+    let title = document.createElement("h1")
+    
+    let parent = document.getElementById("brands")
+    title.innerHTML = item[2].title
+    title.classList.add("title")
+    parent.append(title)
+    parent.append(Brand)
+    for(let i=0; i<item[2].BrandLogo.length; i++){
+        let BrandLogo = document.createElement("img")
+        let a = document.createElement('a')
+        a.href = item[2].BrandsSource[i]
+        a.append(BrandLogo)
+        BrandLogo.src = item[2].BrandLogo[i]
+        Brand.append(a)
+    }
+    let All = document.createElement("a")
+    let btn = document.createElement("button")
+    All.href = item[2].All
+    All.innerText = "Hammasini Ko'rish"
+    btn.append(All)
+    parent.append(btn)
 }

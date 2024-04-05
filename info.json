@@ -5,5 +5,18 @@
         "Slider":["https://www.coca-cola.com/content/dam/onexp/kz/ru/home-images/homepage/Banner2-d-1280x604-2.jpg/width2674.jpg","https://www.coca-cola.com/content/dam/onexp/uz/ru/hero-banners/rus_new_new_desktop.jpg/width1960.jpg"],    
         "NavList":["Brendlar", "Ta'sir qilish"],
         "ListHref": ["https://www.coca-cola.com/uz/ru/brands", "#"]
+    },
+    {
+        "title": "Global ta'sir",
+        "boxesTitle": ["IJTIMOIY LOYIHALARIMIZ", "KOMPANIYA HAQIDA"],
+        "boxPara": ["Coca-Cola kompaniyasining O'zbekistonda barqaror rivojlanish istiqbollari va loyihalari haqida ma'lumot.", "Coca-Cola kompaniyasining O'zbekistondagi faoliyati haqida umumiy ma'lumot."],
+        "boxHref": ["https://www.coca-cola.com/uz/ru/sustainability", "#"],
+        "img":["https://www.coca-cola.com/content/dam/onexp/kz/ru/home-images/homepage/sustainability_desktop.jpg/width1960.jpg", "https://www.coca-cola.com/content/dam/onexp/kz/ru/home-images/homepage/timeline-1890-desktop.jpg/width1960.jpg"]
+    },
+    {
+        "title": "Bizning brendlarimiz bilan tanishing",
+        "BrandLogo" : ["https://www.coca-cola.com/content/dam/onexp/kz/ru/brand-coca-cola/180x180-01.svg", "https://www.coca-cola.com/content/dam/onexp/kz/ru/homepage-images/brands/fanta/fanta-180x180-01.svg", "https://www.coca-cola.com/content/dam/onexp/kz/ru/logos/logo-color/sprite/sprite%20logo%20180x180-01-01.svg"],
+        "BrandsSource" : ["https://www.coca-cola.com/uz/ru/brands/coca-cola", "https://www.coca-cola.com/uz/ru/brands/fanta", "https://www.coca-cola.com/uz/ru/brands/sprite"],
+        "All": "https://www.coca-cola.com/uz/ru/brands"
     }
 ]

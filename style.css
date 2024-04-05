@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: whitesmoke;
@@ -65,4 +66,70 @@ nav{
     border: 1px solid black;
     border-radius: 100%;
     padding: 5px;
+}
+.span{
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}
+.title{
+    text-align: center;
+    font-size: 2vw;
+    margin: 2vw 0px;
+}
+.GlobalBox{
+    width: 50%;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.globalBoxes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Brand {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 5vh;
+}
+.Brand a{
+    width: 250px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    transition: .2s linear;
+    box-shadow: 5px 5px 50px 1px rgba(0, 0, 0, 0.119);
+}
+.Brand img{
+    transition: .2s linear;
+    width: 100%;
+}
+.Brand a:hover img{
+    transform: scale(.9);
+}
+.Brand a:hover{
+    transform: scale(1.1);
+}
+#brands button{
+    height: 50px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 100px;
+    font-size: 16px;
+}
+#brands button:hover{
+    background-color: rgba(0, 0, 0, 0.168);
+}
+#brands button a{
+    color: #000;
+    font-weight: 600;
 }
