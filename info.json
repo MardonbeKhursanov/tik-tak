@@ -18,5 +18,10 @@
         "BrandLogo" : ["https://www.coca-cola.com/content/dam/onexp/kz/ru/brand-coca-cola/180x180-01.svg", "https://www.coca-cola.com/content/dam/onexp/kz/ru/homepage-images/brands/fanta/fanta-180x180-01.svg", "https://www.coca-cola.com/content/dam/onexp/kz/ru/logos/logo-color/sprite/sprite%20logo%20180x180-01-01.svg"],
         "BrandsSource" : ["https://www.coca-cola.com/uz/ru/brands/coca-cola", "https://www.coca-cola.com/uz/ru/brands/fanta", "https://www.coca-cola.com/uz/ru/brands/sprite"],
         "All": "https://www.coca-cola.com/uz/ru/brands"
+    },
+    {
+        "logo":"https://www.coca-cola.com/content/dam/onexp/global/icons/logo-white-large.svg",
+        "location": "O'zbekiston | RU",
+        "loc" : "https://www.coca-cola.com/country-selector"
     }
 ]

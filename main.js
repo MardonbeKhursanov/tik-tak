@@ -10,6 +10,7 @@ function Data(){
         Header(data)
         Global(data)
         Brands(data)
+        Footer(data)
     })
 }
 
@@ -105,4 +106,19 @@ function Brands(item){
     All.innerText = "Hammasini Ko'rish"
     btn.append(All)
     parent.append(btn)
+}
+
+function Footer(item){
+    let parent = document.getElementById("main_footer")
+    let top = document.createElement("div")
+    top.className = "topFooter"
+    let logo = document.createElement("img")
+    let location = document.createElement("a")
+    location.className = "bx bx-current-location"
+    location.innerHTML = item[3].location
+    location.href = item[3].loc
+    logo.src = item[3].logo
+    top.append(logo)
+    top.append(location)
+    parent.append(top)
 }
